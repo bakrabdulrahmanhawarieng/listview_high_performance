@@ -51,6 +51,7 @@ class DataListViewState extends State<DataListView> {
             floating: true,
             pinned: true,
             expandedHeight: 50.0,
+            centerTitle: true,
             flexibleSpace: FlexibleSpaceBar(
               title: Text('Data List'),
             ),
